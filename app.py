@@ -6,13 +6,7 @@ from PIL import Image
 import pandas as pd
 from io import BytesIO
 
-
-
-
-
-
 def main():
-    
     st.markdown("""
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
@@ -40,10 +34,5 @@ def main():
     except IOError:
         st.sidebar.error("Eroare la încărcarea logo-ului.")
     st.sidebar.markdown("<small>© Castemill S.R.L.</small>", unsafe_allow_html=True)
-
-
-# Puteți adăuga un logo și un titlu în bara laterală dacă doriți
-st.sidebar.image('logo.png', use_column_width=True)
-st.sidebar.title('Navigare')
 
 # Restul logicii paginii principale poate fi adăugată aici dacă este necesar
