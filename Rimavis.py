@@ -6,7 +6,7 @@ from streamlit import config as _config
 st.set_page_config(page_title='Aplicația SEAP', page_icon=None, layout='centered', initial_sidebar_state='auto')
 
 # Puteți adăuga un logo și un titlu în bara laterală dacă doriți
-st.sidebar.image('logo.PNG', use_column_width=True)
+st.sidebar.image('./assets/rimavis.PNG', use_column_width=True)
 st.sidebar.title('Navigare')
 
 
