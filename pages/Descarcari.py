@@ -28,7 +28,7 @@ st.data_editor(
 
 options = st.multiselect(
     'Selectati procerurile de lucru',
-    ['PTE 001', 'PTE 002', 'PTE 003', 'PTE 004'],
+    ['PTE 001', 'PTE 002', 'PTE 003', 'PTE 004', 'PTE 005', 'PTE 006']
     ['PTE 005', 'PTE 006'])
 
 text_contents = '''This is some text'''
