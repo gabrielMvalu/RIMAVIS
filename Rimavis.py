@@ -10,13 +10,8 @@ st.sidebar.image('./assets/rimavis.PNG', use_column_width=True)
 st.sidebar.title('Navigare')
 
 
-# Logo 
-col1, col2, col3 = st.columns([0.25,1,0.25])
-col2.image("./assets/rimavis.PNG", use_column_width=True)
-new_line(2)
-
 
 # Restul logicii paginii principale poate fi adăugată aici dacă este necesar
 # Sidebar       
-with st.sidebar:
-    st.image("./assets/rimavis.PNG",   use_column_width=True)
+#with st.sidebar:
+#    st.image("./assets/rimavis.PNG",   use_column_width=True)
