@@ -39,7 +39,7 @@ with tab2:
    st.image("http://blog.hotelguru.ro/wp-content/uploads/2014/08/Zan-Hotel-Voineasa.jpg", width=500)
 with tab3:
    st.header("Vila")
-   st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+   st.image("https://www.nytimes.com/slideshow/2023/04/04/realestate/a-peaceful-retreat-near-the-center-of-a-scottish-city.html", width=500)
 
 container = st.container(border=True)
 container.write(" ")
