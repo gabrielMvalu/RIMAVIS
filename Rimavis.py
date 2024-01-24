@@ -49,7 +49,7 @@ if prompt:
        
 #Sectiune meniuri comandate
 st.bar_chart({"meniuri": [1, 5, 2, 6, 2, 1]})
-with st.expander(prompt):
+with st.expander(f"{prompt}"):
     st.write("Meniurile comandate luna curenta")
     st.image("https://static.streamlit.io/examples/dice.jpg")
 
