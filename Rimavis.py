@@ -33,7 +33,7 @@ st.divider()  # 👈 Draws a horizontal rule
 tab1, tab2, tab3 = st.tabs(["Teren multisport", "Pensiunea Tania", "Casa"])
 with tab1:
    st.header("Teren multisport")
-   st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+   st.image("https://www.terenuri-sportive.ro/media/k2/items/cache/9b2c4b44fb86522964124ed80d03c5e8_XL.jpg", width=400)
 with tab2:
    st.header("Pensiunea")
    st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
