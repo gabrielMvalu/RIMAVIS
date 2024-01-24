@@ -18,7 +18,7 @@ st.data_editor(
         "progres": st.column_config.ProgressColumn(
             "Raport Progres pe activitati procentual",
             help="Progresul lucrarilor aflate in executie",
-            format="%" + "%f",
+            format="%d" + "%f",
             min_value=0,
             max_value=100,
         ),
