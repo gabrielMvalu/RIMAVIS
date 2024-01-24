@@ -23,7 +23,7 @@ with open("rimavis.PNG", "rb") as file:
     btn = st.download_button(
             label="Download logoul Rimavis",
             data=file,
-            file_name="rimavis.PNG",
+            file_name="./assets/rimavis.PNG",
             mime="image/png"
           )
 
