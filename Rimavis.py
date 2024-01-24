@@ -9,7 +9,14 @@ st.set_page_config(page_title='Aplicația SEAP', page_icon=None, layout='centere
 st.sidebar.image('logo.png', use_column_width=True)
 st.sidebar.title('Navigare')
 
+
+# Logo 
+col1, col2, col3 = st.columns([0.25,1,0.25])
+col2.image("./assets/rimavis.png", use_column_width=True)
+new_line(2)
+
+
 # Restul logicii paginii principale poate fi adăugată aici dacă este necesar
 # Sidebar       
 with st.sidebar:
-    st.image("./assets/Rimavis.png",   use_column_width=True)
+    st.image("./assets/rimavis.png",   use_column_width=True)
