@@ -9,6 +9,10 @@ st.set_page_config(page_title='Aplicația SEAP', page_icon=None, layout='centere
 st.sidebar.image('./assets/rimavis.PNG', use_column_width=True)
 st.sidebar.title('Navigare')
 
+col1, col2, col3 = st.columns(3)
+col1.metric("Temperatura", "2 °C", "1.2 °C")
+col2.metric("Vant", "3 Kmph", "-8%")
+col3.metric("Umiditate", "86%", "4%")
 
 st.markdown("""
        <style>
