@@ -1,4 +1,5 @@
 import streamlit as st
+import time
 
 def run():
     st.title('Progresul lucrarilor in executie')
@@ -14,16 +15,13 @@ def run():
         my_bar.progress(percent_complete + 1, text=progress_text)
     time.sleep(1)
     my_bar.empty()
-    
-    st.button("Rerun")
+        
+        st.button("Rerun")
 
 
 # Puteți adăuga un logo și un titlu în bara laterală dacă doriți
 st.sidebar.image('./assets/rimavis.PNG', use_column_width=True)
 st.sidebar.title('Generarea PTE-uri necesare PM')
-
-
-
 
 if __name__ == '__main__':
     run()
