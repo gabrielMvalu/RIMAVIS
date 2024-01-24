@@ -26,6 +26,8 @@ st.markdown("""
        <h1 class='title'>Lista de lucrari SC Rimavis Invest SRL</h1>
        """, unsafe_allow_html=True)
 
+st.divider()  # 👈 Draws a horizontal rule
+
 # sectiune lucrari efectuate
 
 tab1, tab2, tab3 = st.tabs(["Teren multisport", "Pensiunea Tania", "Casa"])
@@ -40,13 +42,18 @@ with tab3:
    st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
 container = st.container(border=True)
-container.write("meniuri comandate")
+container.write(" ")
 
 #Sectiune adaugare 
 prompt = st.chat_input("Adauga mesaj/sau valori/comunicari interne")
 if prompt:
     st.write(f"User has sent the following prompt: {prompt}")
-       
+
+st.divider()  # 👈 Draws a horizontal rule
+
+st.write("Meniuri comandate")
+
+st.divider()  # 👈 Another horizontal rule
 #Sectiune meniuri comandate
 st.bar_chart({"meniuri": [1, 5, 2, 6, 2, 1]})
 with st.expander(f"{prompt}"):
