@@ -23,5 +23,3 @@ st.download_button('Download text', text_contents)
 st.sidebar.image('./assets/rimavis.PNG', use_column_width=True)
 st.sidebar.title('Generarea PTE-uri necesare PM')
 
-if __name__ == '__main__':
-    run()
