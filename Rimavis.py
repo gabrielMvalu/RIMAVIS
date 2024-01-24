@@ -39,6 +39,10 @@ with tab3:
    st.header("Vila")
    st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
+container = st.container(border=True)
+container.write("meniuri comandate")
+
+
 #Sectiune meniuri comandate
 st.bar_chart({"meniuri": [1, 5, 2, 6, 2, 1]})
 with st.expander("See explanation"):
