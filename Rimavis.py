@@ -42,10 +42,14 @@ with tab3:
 container = st.container(border=True)
 container.write("meniuri comandate")
 
-
+#Sectiune adaugare 
+prompt = st.chat_input("Adauga mesaj/sau valori/comunicari interne")
+if prompt:
+    st.write(f"User has sent the following prompt: {prompt}")
+       
 #Sectiune meniuri comandate
 st.bar_chart({"meniuri": [1, 5, 2, 6, 2, 1]})
-with st.expander("See explanation"):
+with st.expander(prompt):
     st.write("Meniurile comandate luna curenta")
     st.image("https://static.streamlit.io/examples/dice.jpg")
 
