@@ -26,20 +26,27 @@ st.markdown("""
        <h1 class='title'>Lista de lucrari SC Rimavis Invest SRL</h1>
        """, unsafe_allow_html=True)
 
+# sectiune lucrari efectuate
 
 tab1, tab2, tab3 = st.tabs(["Teren multisport", "Pensiunea Tania", "Casa"])
-
 with tab1:
    st.header("Teren multisport")
    st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
-
 with tab2:
    st.header("Pensiunea")
    st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
-
 with tab3:
    st.header("Vila")
    st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+
+#Sectiune meniuri comandate
+st.bar_chart({"meniuri": [1, 5, 2, 6, 2, 1]})
+with st.expander("See explanation"):
+    st.write("Meniurile comandate luna curenta")
+    st.image("https://static.streamlit.io/examples/dice.jpg")
+
+
+
 
 # Restul logicii paginii principale poate fi adăugată aici dacă este necesar
 # Sidebar       
