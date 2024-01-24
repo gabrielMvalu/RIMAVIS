@@ -15,6 +15,27 @@ import streamlit as st
 #    mime='text/csv',
 #)
 
+data_df = pd.DataFrame(
+    {
+        "progres": [20, 55, 100, 80],
+    }
+)
+
+st.data_editor(
+    data_df,
+    column_config={
+        "progres": st.column_config.ProgressColumn(
+            "Raport Progres pe activitati %",
+            help="Progresul lucrarilor aflate in executie",
+            format="f'%'",
+            min_value=0,
+            max_value=100,
+        ),
+    },
+    hide_index=True,
+)
+
+
 text_contents = '''This is some text'''
 st.download_button('Download text', text_contents)
 
