@@ -39,7 +39,7 @@ with tab2:
    st.image("http://blog.hotelguru.ro/wp-content/uploads/2014/08/Zan-Hotel-Voineasa.jpg", width=500)
 with tab3:
    st.header("Vila")
-   st.image("https://www.nytimes.com/slideshow/2023/04/04/realestate/a-peaceful-retreat-near-the-center-of-a-scottish-city.html", width=500)
+   st.image("https://as1.ftcdn.net/v2/jpg/05/69/93/30/1000_F_569933034_MroIMSRUQ4KQxcupear51lsezFlhzd9T.jpg", width=500)
 
 container = st.container(border=True)
 container.write(" ")
