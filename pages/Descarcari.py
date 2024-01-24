@@ -26,6 +26,10 @@ st.data_editor(
     hide_index=True,
 )
 
+options = st.multiselect(
+    'Selectati procerurile de lucru',
+    ['PTE 001', 'PTE 002', 'PTE 003', 'PTE 004'],
+    ['PTE 005', 'PTE 006'])
 
 text_contents = '''This is some text'''
 st.download_button('Download text', text_contents)
