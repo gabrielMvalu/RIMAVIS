@@ -62,7 +62,7 @@ st.divider()  # 👈 Another horizontal rule
 st.bar_chart({"meniuri": [1, 5, 2, 6, 2, 1]})
 with st.expander(f"{prompt}"):
     st.write("Meniurile comandate luna curenta")
-    st.image("https://static.streamlit.io/examples/dice.jpg")
+    st.image("https://tomkelcy.com/pic.png")
 
 
 
