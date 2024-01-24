@@ -32,7 +32,7 @@ options = st.multiselect(
     ['PTE 005', 'PTE 006'])
 
 text_contents = '''This is some text'''
-st.download_button('Download text', text_contents)
+st.download_button('Download PTE 00X', text_contents)
 
 
 # Puteți adăuga un logo și un titlu în bara laterală dacă doriți
