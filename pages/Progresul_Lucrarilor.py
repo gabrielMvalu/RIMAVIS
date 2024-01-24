@@ -16,7 +16,7 @@ def run():
     time.sleep(1)
     my_bar.empty()
         
-        st.button("Rerun")
+    st.button("Rerun")
 
 
 # Puteți adăuga un logo și un titlu în bara laterală dacă doriți
