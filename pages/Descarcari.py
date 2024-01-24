@@ -19,15 +19,6 @@ text_contents = '''This is some text'''
 st.download_button('Download text', text_contents)
 
 
-with open("rimavis.PNG", "rb") as file:
-    btn = st.download_button(
-            label="Download logoul Rimavis",
-            data=file,
-            file_name="./assets/rimavis.PNG",
-            mime="image/png"
-          )
-
-
 # Puteți adăuga un logo și un titlu în bara laterală dacă doriți
 st.sidebar.image('./assets/rimavis.PNG', use_column_width=True)
 st.sidebar.title('Generarea PTE-uri necesare PM')
