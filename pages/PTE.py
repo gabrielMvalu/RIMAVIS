@@ -5,10 +5,10 @@ def run():
     st.title('Plan tehnic de executie')
     st.write('Selectati PTE nececsar pentru licitatia in curs.')
 
-    agree = st.checkbox('I agree')
+    agree = st.checkbox('PROCEDURA TEHNICA DE EXECUTIE \n PRIVIND EXECUTAREA FUNDATIILOR DIRECTE DIN BETON')
     
     if agree:
-        st.write('Great!')
+        st.write('Procedura selectata... pasul urmator -> download document')
 
 
 # Puteți adăuga un logo și un titlu în bara laterală dacă doriți
