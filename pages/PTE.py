@@ -9,5 +9,11 @@ def run():
 st.sidebar.image('./assets/rimavis.PNG', use_column_width=True)
 st.sidebar.title('Generarea PTE-uri necesare PM')
 
+agree = st.checkbox('I agree')
+
+if agree:
+    st.write('Great!')
+
+
 if __name__ == '__main__':
     run()
