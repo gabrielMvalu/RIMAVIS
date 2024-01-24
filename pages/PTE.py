@@ -9,7 +9,7 @@ def run():
     agree = st.checkbox('PROCEDURA TEHNICA DE EXECUTIE \n PRIVIND EXECUTAREA FUNDATIILOR DIRECTE DIN BETON')
     
     if agree:
-        st.write('Procedura selectata... pasul urmator -> download document')
+        st.write('Procedura selectata... pasul urmator -> download document :sunglasses:')
         
         # Locația fișierului pe server
         file_path = './assets/Procedura_Tehnica_de_Executie_Fundatii_Directe_Din_Beton.docx'
