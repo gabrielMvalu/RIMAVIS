@@ -23,8 +23,23 @@ st.markdown("""
        }
        </style>
   
-       <h1 class='title'>Pregatirea documentatiei 'Ofertant' - licitatii SEAP</h1>
+       <h1 class='title'>Lista de lucrari SC Rimavis Invest SRL</h1>
        """, unsafe_allow_html=True)
+
+
+tab1, tab2, tab3 = st.tabs(["Teren multisport", "Pensiunea Tania", "Casa"])
+
+with tab1:
+   st.header("Teren multisport")
+   st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+
+with tab2:
+   st.header("Pensiunea")
+   st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+
+with tab3:
+   st.header("Vila")
+   st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
 # Restul logicii paginii principale poate fi adăugată aici dacă este necesar
 # Sidebar       
