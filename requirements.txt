@@ -4,3 +4,4 @@ openpyxl
 python-docx
 requests
 Pillow
+openai
