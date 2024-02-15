@@ -12,13 +12,15 @@ st.write(':rainbow[Powered by GPT4.5 -© CASTEMILL SRL]')
 
 with st.sidebar:
     openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
-    
+    st.write(':rainbow[Powered by GPT-4-0125-preview -© CASTEMILL SRL]')
+
+
 if not openai_api_key:
     st.info("Vă rugăm să introduceți cheia API OpenAI în bara laterală.")
 else:
     # Inițializarea clientului OpenAI cu cheia API introdusă
     client = OpenAI(api_key=openai_api_key)
-    st.write(':rainbow[Powered by GPT-4-0125-preview -© CASTEMILL SRL]')
+  
 
     # Inițializarea stării sesiunii pentru model și mesaje
     if "openai_model" not in st.session_state:
