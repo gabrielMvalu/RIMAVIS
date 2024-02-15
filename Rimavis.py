@@ -5,14 +5,10 @@ import streamlit as st
 st.set_page_config(layout="wide")
 
 st.header(':blue[Pagina comunicari interne Rimavis INVEST SRL]', divider='rainbow')
-st.write(':violet[Bine ați venit]')
+st.write(':rainbow[Powered by GPT4.5 -© CASTEMILL SRL]')
 
 
-with st.expander(" ℹ️ Mesaj Informativ ℹ️  "):
-    st.write("""
-        Vă informăm că aceast bot se află într-o fază incipientă de dezvoltare. 
-        În acest moment, funcționalitatea este limitată la furnizarea de răspunsuri generale.
-    """)
+
 
 with st.sidebar:
     openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
