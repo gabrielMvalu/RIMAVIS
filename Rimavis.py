@@ -18,6 +18,7 @@ if not openai_api_key:
 else:
     # Inițializarea clientului OpenAI cu cheia API introdusă
     client = OpenAI(api_key=openai_api_key)
+    st.write(':rainbow[Powered by GPT-4-0125-preview -© CASTEMILL SRL]')
 
     # Inițializarea stării sesiunii pentru model și mesaje
     if "openai_model" not in st.session_state:
